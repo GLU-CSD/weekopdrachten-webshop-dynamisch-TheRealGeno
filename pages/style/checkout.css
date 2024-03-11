@@ -1,0 +1,50 @@
+
+body {
+align-items: center;
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+height: 100vh;
+}
+
+.title  {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+
+.submit {
+    background-color: red;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    outline: 0;
+    text-align: center;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.submit:active {
+    background-color: rgb(180, 10, 10);
+}
+
+.form > * {
+    width: 300px;
+    padding: 10px;
+    float: center;
+    font-family: sans-serif;
+}
+
+.homepage {
+    font-size: 20px;
+    color: black;
+    float: right;
+
+}
+
