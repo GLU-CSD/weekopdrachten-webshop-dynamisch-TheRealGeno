@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <?php
  include_once "head.php";
  include_once "header.php";
  ?>
 
-
+<body>
     <h3> Home / Gaming Headsets </h3>
     <h4> GAMING HEADSETS </h4>
 
@@ -47,203 +49,18 @@
             <hr class="lijn">
         </div>
 
-        <div class="products">
+       <?php
+        include_once "products.php";
+       ?>
+       </div>
 
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-            <div class="box">
-                <div class="productfoto"><img src="img/hyperxred-Photoroom.png-Photoroom.png" alt="headset" height="200"
-                        width="200">
-                </div>
-                <div class="naam">Cloud II Wireless - Gaming Headset</div>
-                <div class="prijs">84,99$</div>
-                <div class="shoppingcart"><img src="img/shoppingcart.png" alt="shoppingcart" height="25" width="25">
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
+
+<div class="blackbar">
+    <div class="logo2"><img src="img/hyperxlogonobackground.png" alt="logo" width="200" height="50"></div>
+</div>
 
 <?php
 include_once "footer.php";
 ?>
-
+</body>
 </html>

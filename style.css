@@ -252,10 +252,6 @@ h4 {
 
 }
 
-.shoppingcart:hover {
-   
-}
-
 .lijn {
     border-bottom: 1px solid black;
     margin-left: 30px;
@@ -281,7 +277,7 @@ h4 {
     height: 500px;
     align-items: left;
     text-align: center;
-    padding-left: 415px;
+    padding-left: 315px;
     padding-top: 100px;  
     
 }

@@ -1,5 +1,4 @@
 
-<body>
 <div id="container">
         <div class="taal"> Uw taal: </div>
         <h2> HYPERX </h2>

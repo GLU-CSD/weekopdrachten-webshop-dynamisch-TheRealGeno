@@ -1,6 +1,4 @@
-<div class="blackbar">
-    <div class="logo2"><img src="img/hyperxlogonobackground.png" alt="logo" width="200" height="50"></div>
-</div>
+
 
 <footer>
     <div id="navigatiebalk">
