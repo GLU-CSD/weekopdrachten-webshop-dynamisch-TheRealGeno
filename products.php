@@ -1,5 +1,4 @@
 <?php
-// Sample product array
 $products = [
     ["name" => "Cloud II Wireless - Gaming Headset", "price" => "84,99$", "imageSrc" => "img/hyperxred-Photoroom.png-Photoroom.png"],
     ["name" => "Cloud II Wireless - Gaming Headset", "price" => "84,99$", "imageSrc" => "img/hyperxred-Photoroom.png-Photoroom.png"],
@@ -22,11 +21,9 @@ $products = [
     ["name" => "Cloud II Wireless - Gaming Headset", "price" => "84,99$", "imageSrc" => "img/hyperxred-Photoroom.png-Photoroom.png"],
     ["name" => "Cloud II Wireless - Gaming Headset", "price" => "84,99$", "imageSrc" => "img/hyperxred-Photoroom.png-Photoroom.png"],
     ["name" => "Cloud II Wireless - Gaming Headset", "price" => "84,99$", "imageSrc" => "img/hyperxred-Photoroom.png-Photoroom.png"],
-
-    // Add more product arrays as needed
 ];
 
-// Function to generate HTML for a single product
+// Function gen html for product
 function generateProductHTML($product) {
     return '
         <div class="box">
@@ -38,14 +35,14 @@ function generateProductHTML($product) {
     ';
 }
 
-// Generate HTML for all products
+//  HTML for  products
 $productsHTML = '';
 foreach ($products as $product) {
     $productsHTML .= generateProductHTML($product);
 }
 ?>
 
-<!-- Output the products HTML -->
+
 <div class="products">
     <?php echo $productsHTML; ?>
 </div>
