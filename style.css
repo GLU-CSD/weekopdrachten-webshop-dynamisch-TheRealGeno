@@ -31,7 +31,7 @@ h2 {
     background-color: black;
     display: inline-block;
     text-align: center;
-    width: 1700px;
+    width: 100%;
     height: 50px;
     min-width: 100px;
     margin: 0;
@@ -78,7 +78,7 @@ h2 {
 .producten {
     background-color: white;
     text-align: center;
-    width: 89%;
+    width: 100%;
     height: 50px;
     word-spacing: 20px;
     line-height: 50px;  
@@ -196,14 +196,12 @@ h4 {
     align-items: center;
     background-color: white;
     text-align: center;
-    width: 350px;
-    height: 400px;
+    width: 250px;
+    height: 300px;
     border: 2px solid rgb(245, 246, 247, 1);
     min-height: 50px;
     min-width: 50px;
     transition: 0.2s;
-    min-width: 350px;
-    min-height: 400px;
     -webkit-box-shadow: 0 0 10px #ffffff;
         box-shadow: 0 0 10px #ffffff;
     
