@@ -49,10 +49,19 @@
             <hr class="lijn">
         </div>
 
+        <div class="products">
        <?php
         include_once "products.php";
+
+        foreach ($products as $product) {
+            $imageSrc = $product["imageSrc"];
+            $name = $product["name"];
+            $price = $product["price"];
+            include("./product.php");
+        }
        ?>
        </div>
+    </div>
 
 
 <div class="blackbar">
