@@ -8,28 +8,37 @@
     <title>Document</title>
 </head>
 
+<body>
+
 <header>
 <?php   
  include_once "header.php";
  ?>
 </header>
 
-<body>
+    <div class="flex">
     <div id="productinfo">
         <div class="productphoto"></div>
         <div class="productinformation">
-            <div class="producttitel"></div>
-            <div class="productphoto1"></div>
-            <div class="productphoto2"></div>
-            <div class="productphoto3"></div>
+            <div class="producttitel"> HALLO</div>
+            <div class="containerphoto">
+            <div class="productphoto1">check</div>
+            <div class="productphoto1">check</div>
+            <div class="productphoto1">check</div>
+            </div>
             <div class="producttext"></div>
         </div>
     </div>
-
-
+</div>
+<footer>
+<div class="blackbar">
+    <div class="logo2"><img src="img/hyperxlogonobackground.png" alt="logo" width="200" height="50"></div>
+</div>
+<?php
+include_once "footer.php";
+?>
+</footer>
 </body>
 
-<footer>
 
-</footer>
 </html>
