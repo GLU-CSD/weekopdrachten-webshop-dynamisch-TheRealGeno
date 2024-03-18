@@ -1,10 +1,9 @@
-
 <div id="container">
         <div class="taal"> Uw taal: </div>
         <h2> HYPERX </h2>
         <div class="account"> Account </div>
-        <div class="account"> <a href="/pages/factuur.html" class="cartButton"> Shopping Cart </a></div>
-        <div class="account"> <a href="/pages/login.html" class="cartButton">Login</a></div>
+        <div class="account"> <a href="./pages/factuur.html" class="cartButton"> Shopping Cart </a></div>
+        <div class="account"> <a href="./pages/login.html" class="cartButton">Login</a></div>
     </div>
 
     <div id="topbar">
