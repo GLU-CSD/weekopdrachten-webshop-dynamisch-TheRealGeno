@@ -26,7 +26,8 @@
             <div class="productphoto1">check</div>
             <div class="productphoto1">check</div>
             </div>
-            <div class="producttext"></div>
+            <div class="price"> 122</div>
+            <div class="producttext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam delectus porro harum deleniti odit quasi similique quas dolor, eius fuga eligendi, provident necessitatibus magni odio vel perferendis libero nulla alias!</div>
         </div>
     </div>
 </div>
