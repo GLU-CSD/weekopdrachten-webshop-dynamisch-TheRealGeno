@@ -44,7 +44,7 @@
             <div class="productphoto1">check</div>
             </div>
             <div class="price"> <?php echo $product["price"]?></div>
-            <div class="producttext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam delectus porro harum deleniti odit quasi similique quas dolor, eius fuga eligendi, provident necessitatibus magni odio vel perferendis libero nulla alias!</div>
+            <div class="producttext"> <?php echo $product["info"] ?></div>
         </div>
     </div>
 </div>
