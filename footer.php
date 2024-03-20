@@ -2,9 +2,7 @@
 
 <footer>
     <div id="navigatiebalk">
-
         <div class="support">
-
             <div class="header">SUPPORT</div>
             <hr class="lijn3">
             <div>Product Support</div>

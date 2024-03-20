@@ -1,3 +1,18 @@
+<?php
+  include_once "products.php";
+
+  $product = [];
+
+  foreach ($products as $curr_product) {
+    if ($curr_product["id"] == $_GET["id"]){
+        $product = $curr_product;
+        break;
+    }
+  }
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,15 +33,17 @@
 
     <div class="flex">
     <div id="productinfo">
-        <div class="productphoto"></div>
+        <div class="productphoto">
+          <img src=<?php echo $product["imageSrc"] ?> alt="mainImage" width="400" height="400"  >
+            </div>
         <div class="productinformation">
-            <div class="producttitel"> HALLO</div>
+            <div class="producttitel"> <?php  echo $product["name"]  ?></div>
             <div class="containerphoto">
             <div class="productphoto1">check</div>
             <div class="productphoto1">check</div>
             <div class="productphoto1">check</div>
             </div>
-            <div class="price"> 122</div>
+            <div class="price"> <?php echo $product["price"]?></div>
             <div class="producttext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam delectus porro harum deleniti odit quasi similique quas dolor, eius fuga eligendi, provident necessitatibus magni odio vel perferendis libero nulla alias!</div>
         </div>
     </div>
