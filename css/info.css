@@ -72,3 +72,38 @@
     padding-left: 5%;
     font-size: 25px;
 }
+
+.shoppingcartContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.shoppingcartAdd {
+    background-color: red;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 100px;
+    outline: 0;
+    text-align: center;
+    width: 50%;
+    line-height: 250%;
+
+
+}
+
+.shoppingcartAdd:hover {
+    background-color: rgb(220, 9, 9);
+}
+
+.buttonText {
+    color: white;
+}
+
