@@ -6,8 +6,8 @@ $products = [
      Multiplatform Compatible with 3.5mm, USB-C, and USB-A", 
      "imageSrc" => "img/hyperxred-Photoroom.png-Photoroom.png",
      "imageSrc1" => "img/hyperxblack.webp",
-     "imageSrc2" => "img/hyperxblue.webp",
-     "imageSrc3" => "img/hyperxgreen.webp"
+     "imageSrc2" => "img/hyperxblue.jpg",
+     "imageSrc3" => "img/hyperxgreen.jpg"
     ],
     ["id" => "70848f90-0e60-4589-9556-f687a72e4c59", "name" => "Cloud II Wireless - Gaming Headset", "price" => "84,99$", "info" =>"HyperX Signature Comfort and Durability
      Angled 53mm Drivers, Tuned for Impeccable Audio
@@ -78,8 +78,8 @@ $products = [
     Multiplatform Compatible with 3.5mm, USB-C, and USB-A", "imageSrc" => 
      "img/hyperxred-Photoroom.png-Photoroom.png",
      "imageSrc1" => "img/hyperxblack.webp",
-     "imageSrc2" => "img/hyperxblue.webp",
-     "imageSrc3" => "img/hyperxgreen.webp"
+     "imageSrc2" => "img/hyperxblue.jpg",
+     "imageSrc3" => "img/hyperxgreen.jpg"
 ],
     ["id" => "560ae735-f93f-43f1-ba20-399557506869", "name" => "Cloud II Wireless - Gaming Headset", "price" => "84,99$","info" =>"HyperX Signature Comfort and Durability
     Angled 53mm Drivers, Tuned for Impeccable Audio
@@ -87,8 +87,8 @@ $products = [
     Multiplatform Compatible with 3.5mm, USB-C, and USB-A", "imageSrc" => 
      "img/hyperxred-Photoroom.png-Photoroom.png",
      "imageSrc1" => "img/hyperxblack.webp",
-     "imageSrc2" => "img/hyperxblue.webp",
-     "imageSrc3" => "img/hyperxgreen.webp"
+     "imageSrc2" => "img/hyperxblue.jpg",
+     "imageSrc3" => "img/hyperxgreen.jpg"
 ],
     ["id" => "9206352b-e6c2-4017-8613-49316d08d14b", "name" => "Cloud II Wireless - Gaming Headset", "price" => "84,99$","info" =>"HyperX Signature Comfort and Durability
     Angled 53mm Drivers, Tuned for Impeccable Audio
@@ -96,8 +96,8 @@ $products = [
     Multiplatform Compatible with 3.5mm, USB-C, and USB-A", "imageSrc" => 
      "img/hyperxred-Photoroom.png-Photoroom.png",
      "imageSrc1" => "img/hyperxblack.webp",
-     "imageSrc2" => "img/hyperxblue.webp",
-     "imageSrc3" => "img/hyperxgreen.webp"
+     "imageSrc2" => "img/hyperxblue.jpg",
+     "imageSrc3" => "img/hyperxgreen.jpg"
 ],
     ["id" => "ff2b60b0-d0b1-497e-b72b-3f29c3bc0fe5", "name" => "Cloud II Wireless - Gaming Headset", "price" => "84,99$","info" =>"HyperX Signature Comfort and Durability
     Angled 53mm Drivers, Tuned for Impeccable Audio
@@ -105,8 +105,8 @@ $products = [
     Multiplatform Compatible with 3.5mm, USB-C, and USB-A", "imageSrc" => 
      "img/hyperxred-Photoroom.png-Photoroom.png",
      "imageSrc1" => "img/hyperxblack.webp",
-     "imageSrc2" => "img/hyperxblue.webp",
-     "imageSrc3" => "img/hyperxgreen.webp"
+     "imageSrc2" => "img/hyperxblue.jpg",
+     "imageSrc3" => "img/hyperxgreen.jpg"
 ],
     ["id" => "2a9dbb9d-f98c-4c7a-b2ee-e9baf05b0cf0", "name" => "Cloud II Wireless - Gaming Headset", "price" => "84,99$","info" =>"HyperX Signature Comfort and Durability
     Angled 53mm Drivers, Tuned for Impeccable Audio

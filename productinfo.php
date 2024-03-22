@@ -41,7 +41,7 @@
             <div class="containerphoto">
             <div class="productphoto1"><img onclick="document.getElementById('mainImage').src=this.src" src=<?php echo $product["imageSrc"] ?> alt="mainImage" width="100" height="100"  ></div>
             <div class="productphoto1"><img onclick="document.getElementById('mainImage').src=this.src" src=<?php echo $product["imageSrc2"] ?> alt="mainImage" width="100" height="100"  ></div>
-            <div class="productphoto1"><img onclick="document.getElementById('mainImage').src=this.src" src=<?php echo $product["imageSrc1"] ?> alt="mainImage" width="90" height="90"  ></div>
+            <div class="productphoto1"><img onclick="document.getElementById('mainImage').src=this.src" src=<?php echo $product["imageSrc3"] ?> alt="mainImage" width="100" height="100"  ></div>
             </div>
             <div class="price"> <?php echo $product["price"]?></div>
             <div class="producttext"> <?php echo $product["info"] ?></div>
