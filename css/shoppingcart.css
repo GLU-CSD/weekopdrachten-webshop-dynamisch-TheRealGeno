@@ -1,0 +1,38 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#cartContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 750px;
+    width: 75%;
+    margin-top: 50px;
+    gap: 25px;
+    -webkit-box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #000000;
+}
+
+.productimages {
+    background-color: green;
+    float: left;
+    width: 50%;
+    height: 90%;
+    margin-left: 25px;
+}
+
+.cartInfo {
+    background-color: green;
+    float: right;
+    width: 50%;
+    height: 90%;
+    margin-right: 25px;
+
+}
+
