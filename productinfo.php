@@ -46,7 +46,7 @@
             <div class="price"> <?php echo $product["price"]?></div>
             <div class="producttext"> <?php echo $product["info"] ?></div>
             <div class="shoppingcartContainer">
-            <div class="shoppingcartAdd"><a href="/index.html" > <div class="buttonText">Add To Shoppingcart </div> </a></div>
+            <button class="ShoppingcartAdd" type="button" > Add To Shoppingcart</button> 
             </div>
         </div>
     </div>

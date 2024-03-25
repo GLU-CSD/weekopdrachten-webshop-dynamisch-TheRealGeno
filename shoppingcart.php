@@ -27,7 +27,10 @@
      </div>
      <div class="cartInfo">
         <div class="productName">hallo</div>
+        <hr class="lijn4">
         <div class="productPrice">hallo</div>
+        <hr class="lijn4">
+        <div class="Checkout"><a href="./pages/factuur.html" > <div class="buttonText">Checkout</div> </a></div>
      </div>
    </div>
   </div>
