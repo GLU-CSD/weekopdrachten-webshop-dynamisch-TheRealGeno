@@ -1,4 +1,15 @@
 <?php
+ session_start();
+ if(!isset($_GET["id"])) {
+    header("Location: https://nu.nl");
+    die();
+ }
+
+ $cart = [];
+
+?>
+
+<?php
   include_once "products.php";
 
   $product = [];
@@ -9,6 +20,10 @@
         break;
     }
   }
+ if($product == [] ){
+    echo "<a href='index.html'>Google</a>";
+ }
+
 ?>
 
 
@@ -45,8 +60,14 @@
             </div>
             <div class="price"> <?php echo $product["price"]?></div>
             <div class="producttext"> <?php echo $product["info"] ?></div>
-            <div class="shoppingcartContainer">
-            <button class="ShoppingcartAdd" type="button" > Add To Shoppingcart</button> 
+            <div class="shoppingcartContainer"> 
+             <div class="productadded"> <?php 
+              if(isset($_GET["add"])) {
+                echo "Product Added";
+             }
+               ?> 
+              </div>
+             <a class="ShoppingcartAdd" href="productinfo.php?add=<?= $product["id"]?>&id=<?= $product["id"]?>">toevoegen</a>
             </div>
         </div>
     </div>
