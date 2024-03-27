@@ -1,16 +1,19 @@
 <?php
  session_start();
+
+ include_once "products.php";
  if(!isset($_GET["id"])) {
     header("Location: https://nu.nl");
     die();
  }
 
- $cart = [];
+ if (isset($_POST['bestel'])) {
+  $_SESSION['cart'][$_POST['id']] = $_POST['aantal'];
+ }
 
 ?>
 
 <?php
-  include_once "products.php";
 
   $product = [];
 
@@ -67,7 +70,11 @@
              }
                ?> 
               </div>
-             <a class="ShoppingcartAdd" href="productinfo.php?add=<?= $product["id"]?>&id=<?= $product["id"]?>">toevoegen</a>
+              <form action="" method="post">
+                <input type="hidden" name="id" value="<?= $product['id']; ?>">
+                <input type="submit" name="bestel" value="Add To Shoppingcart" class="ShoppingcartAdd">
+                <input type="number" name="aantal" value="1" min=1>
+              </form>
             </div>
         </div>
     </div>

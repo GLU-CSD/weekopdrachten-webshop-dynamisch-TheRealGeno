@@ -1,5 +1,15 @@
 <?php
  session_start();
+
+ include_once 'products.php';
+
+ if (isset($_GET['destroy'])) {
+  session_destroy();
+  header('Location: ' . $_SERVER['PHP_SELF']);
+  exit();
+}
+
+
 ?>
 
 
@@ -20,8 +30,19 @@
         include_once "header.php";
       ?>
     </header>
-  <div class="container1">  
-   <div id="cartContainer">
+    
+    <?php
+        if (isset($_SESSION['cart'])) { 
+
+            foreach (array_keys($_SESSION['cart']) as $productid) {
+                //echo 'id: ' . $productid . ' - aantal: ' . $_SESSION['cart'][$productid] . "<br>";
+
+                foreach ($products['products'] as $product) {
+                    if ($product['id'] == $productid) {
+    ?>
+
+<div class="container1">  
+ <div id="cartContainer">
      <div class="productimages">
       hallo
      </div>
@@ -33,14 +54,20 @@
         <div class="Checkout"><a href="./pages/factuur.html" > <div class="buttonText">Checkout</div> </a></div>
      </div>
    </div>
-  </div>
+   </div>
     <footer>
-    <div class="blackbar">
-    <div class="logo2"><img src="img/hyperxlogonobackground.png" alt="logo" width="200" height="50"></div>
-</div>
+      <div class="blackbar">
+      <div class="logo2"><img src="img/hyperxlogonobackground.png" alt="logo" width="200" height="50"></div>
       <?php
        include_once "footer.php"
       ?>
     </footer>
+</div>  
+                        <?php
+                    }
+                 }
+              }
+          }
+      ?>
 </body>
 </html>
