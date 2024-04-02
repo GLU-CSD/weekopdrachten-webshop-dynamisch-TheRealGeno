@@ -19,20 +19,16 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shoppingcart</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/shoppingcart.css">
-</head>
-<body>
-<div class="destroy"><a href="productinfo.php?destroy=1">destroy session</a></div>
-    <header>
-      <?php
-        include_once "header.php";
-      ?>
-    </header>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Shoppingcart</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/shoppingcart.css">
+  </head>
+  <body>
+    <div class="destroy"><a href="shoppingcart.php?destroy=1">destroy session</a></div>
+    <header><?php include_once "header.php" ?></header>
     <div class="container1">  
       <div id="cartContainer">
       <?php
@@ -44,33 +40,31 @@
                   foreach ($products as $product) {
                       if ($product['id'] == $productid) {?>
                   
-                        <div class="productimages">
-                          hallo
-                        </div>
                         <div class="cartInfo">
                             <div class="productName"><div> <?= $product['name'] ?> - aantal : <?= $_SESSION['cart'][$productid] ?></div></div>
-                            <div class="amount"> <?php ?> </div>
+                            <div class="amount"> <?php $product['price']  ?> </div>
                             <hr class="lijn4">
                             <div class="productPrice">hallo</div>
                             <hr class="lijn4">
+                            <div class="productimages">
+                            hallo
+                            </div>
                             <div class="Checkout"><a href="./pages/factuur.html" > <div class="buttonText">Checkout</div> </a></div>
                         </div>
-                      
                           <?php
                       }
                   }
                 }
             }
-        ?>
+      ?>
     </div>
   </div>
   <footer>
-    <div class="blackbar">
+    <div class="blackbar" >
     <div class="logo2"><img src="img/hyperxlogonobackground.png" alt="logo" width="200" height="50"></div>
-    <?php
-    include_once "footer.php"
-    ?>
-  </footer>
-</div>  
+    </div>
+        <?php include_once "footer.php" ?>
+    </footer>
+  </div>
 </body>
 </html>

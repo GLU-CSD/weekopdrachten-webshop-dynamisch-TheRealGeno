@@ -10,8 +10,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: rgb(243, 243, 243);
-    height: 750px;
+    height: 100%;
     width: 75%;
     margin-top: 50px;
     gap: 25px;
@@ -19,20 +20,11 @@
     box-shadow: 0 0 10px #000000;
 }
 
-.productimages {
-    background-color: rgb(255, 255, 255);
-    float: left;
-    width: 50%;
-    height: 90%;
-    margin-left: 25px;
-}
 
 .cartInfo {
     background-color: rgb(255, 255, 255);
-    float: right;
     width: 50%;
     height: 90%;
-    margin-right: 25px;
 
 }
 
