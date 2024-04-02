@@ -11,6 +11,7 @@
         <div class="producten">
             <button type="button" class="btn">Shop By Category</button>
             <button type="button" class="btn">Shop By Platform</button>
+            <a href="index.php" class="btn">Home</a>
             <button type="button" class="btn">We're All Gamers</button>
             <button type="button" class="btn">NGENUITY</button>
             <button type="button" class="btn">Support</button>

@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/shoppingcart.css">
 </head>
 <body>
+<div class="destroy"><a href="productinfo.php?destroy=1">destroy session</a></div>
     <header>
       <?php
         include_once "header.php";
@@ -37,17 +38,19 @@
             foreach (array_keys($_SESSION['cart']) as $productid) {
                 //echo 'id: ' . $productid . ' - aantal: ' . $_SESSION['cart'][$productid] . "<br>";
 
-                foreach ($products['products'] as $product) {
+                foreach ($products as $product) {
                     if ($product['id'] == $productid) {
     ?>
-
+    
+    <div> <?= $product['name'] ?> - aantal : <?= $_SESSION['cart'][$productid] ?>
 <div class="container1">  
  <div id="cartContainer">
      <div class="productimages">
       hallo
      </div>
      <div class="cartInfo">
-        <div class="productName">hallo</div>
+        <div class="productName"><div> <?= $product['name'] ?> - aantal : <?= $_SESSION['cart'][$productid] ?></div></div>
+        <div class="amount"> <?php ?> </div>
         <hr class="lijn4">
         <div class="productPrice">hallo</div>
         <hr class="lijn4">
