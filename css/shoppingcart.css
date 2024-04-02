@@ -44,16 +44,41 @@
     text-decoration: none;
     font-size: 18px;
     height: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
     outline: 0;
     text-align: center;
     width: 50%;
     line-height: 250%;
-    margin-left: 25%;
-
+    margin-bottom: 50px;
 }
 
 .Checkout:hover {
     background-color: rgb(220, 9, 9);
 }
 
+.productName {
+  font-size: 25px;
+  margin-bottom: 2%;
+}
+
+.amount {
+    font-size: 20px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.productPrice {
+    font-size: 20px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productimages {
+ 
+}

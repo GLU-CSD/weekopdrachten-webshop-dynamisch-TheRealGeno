@@ -41,22 +41,25 @@
                       if ($product['id'] == $productid) {?>
                   
                         <div class="cartInfo">
-                            <div class="productName"><div> <?= $product['name'] ?> - aantal : <?= $_SESSION['cart'][$productid] ?></div></div>
-                            <div class="amount"> <?php $product['price']  ?> </div>
+                            <div class="productName"><div><?= $product['name'] ?></div></div>
+                            <div class="amount"><div> Aantal <?= $_SESSION['cart'][$productid] ?> </div></div>
                             <hr class="lijn4">
-                            <div class="productPrice">hallo</div>
+                            <div class="productPrice"><div> Price <?= $product['price']?> </div></div>
                             <hr class="lijn4">
+                            <div class="imageContainer">
                             <div class="productimages">
-                            hallo
+                            <img src="<?= $product["imageSrc"]?>" alt="<?php echo $product["name"]?>" height="100" width="100">
                             </div>
-                            <div class="Checkout"><a href="./pages/factuur.html" > <div class="buttonText">Checkout</div> </a></div>
+                            </div>
                         </div>
+                          
                           <?php
                       }
                   }
                 }
             }
       ?>
+      <div class="Checkout"><a href="./pages/factuur.html" > <div class="buttonText">Checkout</div> </a></div>
     </div>
   </div>
   <footer>
