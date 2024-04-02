@@ -70,7 +70,7 @@
              }
                ?> 
               </div>
-              <form action="" method="post">
+              <form action="productinfo.php?id=<?= $product['id']; ?>&add=true" method="post">
                 <input type="hidden" name="id" value="<?= $product['id']; ?>">
                 <input type="submit" name="bestel" value="Add To Shoppingcart" class="ShoppingcartAdd">
                 <input type="number" name="aantal" value="1" min=1>
