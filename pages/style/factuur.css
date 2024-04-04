@@ -1,13 +1,26 @@
 
-.form {
-    align-items: center;
-    background-color: #ffffff;
+.formcontainer {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    align-items: center;
+}
+
+
+.form {
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
     flex-direction: column;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    -webkit-box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #000000;
+    
     }
     
     .title  {

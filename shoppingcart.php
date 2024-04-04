@@ -42,7 +42,7 @@
                   
                         <div class="cartInfo">
                             <div class="productName"><div><?= $product['name'] ?></div></div>
-                            <div class="amount"><div> Aantal <?= $_SESSION['cart'][$productid] ?> </div></div>
+                            <div class="amount"><div> Amount <?= $_SESSION['cart'][$productid] ?> </div></div>
                             <hr class="lijn4">
                             <div class="productPrice"><div> Price <?= $product['price']?> </div></div>
                             <hr class="lijn4">
@@ -52,11 +52,11 @@
                             </div>
                             </div>
                         </div>
-                          
+                      
                           <?php
-                      }
+                    }
                   }
-                }
+               }
             }
       ?>
       <div class="Checkout"><a href="./pages/factuur.html" > <div class="buttonText">Checkout</div> </a></div>
