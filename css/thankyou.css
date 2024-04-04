@@ -1,0 +1,16 @@
+.thankscontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.thankyou {
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+}
