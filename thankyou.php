@@ -15,7 +15,7 @@
         <div class="thankyou">
           <div class="titel"> Thank you for the purchase</div>
           <div class="thankyouinfo">Items purchased : </div>
-          <div class="continueshopping"><a href="index.php"></a></div>
+          <div class="continueshopping"><a href="index.php">Continue Shopping</a></div>
         </div>
     </div>
 
